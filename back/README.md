@@ -34,17 +34,17 @@ npm run start:dev
 - Prisma: https://www.prisma.io/
 
 ## Criar Docker da aplicação
-docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql
+- docker run --name api-solid-pg -e POSTGRESQL_USERNAME=docker -e POSTGRESQL_PASSWORD=docker -e POSTGRESQL_DATABASE=apisolid -p 5432:5432 bitnami/postgresql
 
 ## Verifica na aplicação, o que não refletiu no banco e cria
-npx prisma migrate dev
+- npx prisma migrate dev
 
 # Visualizar o Prisma Studio
-npx prisma studio
+- npx prisma studio
 
 ## Inicializar o Docker via Compose 
 Após configurado no arquivo docker-compose.yml
-docker compose up -d
+- docker compose up -d
 
 ## Biblioteca para hash de senha 
 npm i bcryptjs 
