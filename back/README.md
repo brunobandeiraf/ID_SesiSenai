@@ -47,13 +47,13 @@ Após configurado no arquivo docker-compose.yml
 - docker compose up -d
 
 ## Biblioteca para hash de senha 
-npm i bcryptjs 
-npm i -D @types/bcryptjs
+- npm i bcryptjs 
+- npm i -D @types/bcryptjs
 
 ## Trabalhando com Testes - Vitest 
 Plugin vite para compreender as importações com @
-npm i vitest vite-tsconfig-paths -D
+- npm i vitest vite-tsconfig-paths -D
 
 # Visualizar uma Interface para os Testes realizados
-npm i -D @vitest/ui
+- npm i -D @vitest/ui
 
